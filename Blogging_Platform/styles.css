@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+.stories {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.stories h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.story {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.story:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.story h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.story p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.story a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.story a:hover {
+    text-decoration: underline;
+}
+
+aside {
+    flex: 1;
+}
+
+aside section {
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer .social-media a:hover {
+    color: #3498db;
+}
+.form-message {
+    margin-top: 10px;
+    font-size: 16px;
+}
